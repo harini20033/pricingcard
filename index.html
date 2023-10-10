@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="pricing-card">
+        <div class="pricing-header">
+            <h2>Basic Plan</h2>
+            <p>$9.99/mo</p>
+        </div>
+        <div class="pricing-features">
+            <ul>
+                <li>10GB Storage</li>
+                <li>Unlimited Users</li>
+                <li>24/7 Support</li>
+            </ul>
+        </div>
+        <button class="btn">Select Plan</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<head>
+    <style>
+        
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.pricing-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+}
+
+.pricing-header {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+}
+
+.pricing-header h2 {
+    font-size: 24px;
+}
+
+.pricing-header p {
+    font-size: 18px;
+}
+
+.pricing-features {
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+    </style>
+</head>
+
+    <script>
+
+document.querySelector('.btn').addEventListener('click', function () {
+    alert('You have selected the Basic Plan!');
+});
+<script>
